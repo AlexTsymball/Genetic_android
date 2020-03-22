@@ -96,6 +96,7 @@ public class MainActivity extends AppCompatActivity {
        newthird[newthird.length-1] = newfourth[newthird.length-1];
        newfourth[newthird.length-1] = tmp;
 
+       //mutation
        int mut1 = (int)(Math.random()*(newthird.length-1));
        int mut2 = (int)(Math.random()*(newthird.length-1));
        if(mut1 == 0){
